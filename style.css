@@ -1,6 +1,9 @@
 body{
     margin: 0px;
+    font-family: sans-serif;
 }
+
+/* body header */
 #body-header{
     height: 65vh;
     opacity: 0.8;
@@ -8,4 +11,93 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/*Horizontal List  */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0vh 8px 8px 8px ;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+.horizontal-list li a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s,border-bottom 4s;
+    font-size: 1.0rem;
+    font-family: sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+
+.horizontal-list li a:hover{
+    /* text-decoration: underline; */
+    border-bottom: 1px solid white;
+    color:lightgray;
+}
+#name-social-container{
+    margin-top: 20vh;
+}
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.horizontal-list-icon{
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.horizontal-list-icon li{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 14px;
+}
+.horizontal-list-icon li a{
+    text-decoration: none;
+}
+.horizontal-list-icon li a img{
+    height: 18px;
+    width: 18px;
+    
+    
+}
+.horizontal-list-icon li:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);;
+    
+}
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#profile-img img{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    margin-top: -17vh;
+    opacity: 0.9;
+    border: 2px solid white;
+}
+#description{
+    width: 50vw;
+    margin:auto;
+}
+#description p{
+    text-align:justify;
+    color: dimgray;
 }
